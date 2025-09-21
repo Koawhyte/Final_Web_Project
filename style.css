@@ -133,7 +133,7 @@ img{
     background-color: white;
     padding: 30px 7%;
     color: black;
-    
+    flex-wrap:nowrap;
 
 }
 
@@ -169,7 +169,7 @@ img{
     display: flex;
     align-items: center;
     
-    gap: 2rem;
+    gap: 1rem;
     width: 80%;
     
 }
@@ -270,7 +270,7 @@ img{
 .skill{
     background-color: rgb(241, 241, 241);
     width: 100%;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .skill h3{
