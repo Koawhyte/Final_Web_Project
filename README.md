@@ -13,7 +13,7 @@ This is a personal portfolio website showcasing my skills and experience. The we
 
 *Deployment*
 
-You can view the live site here: [insert link]
+You can view the live site here: [https://final-web-project-beryl.vercel.app]
 
 *Technologies Used*
 
@@ -23,7 +23,7 @@ You can view the live site here: [insert link]
 
 *Development Process*
 
-During development, I utilized JavaScript to implement input field validation, ensuring that the form functions correctly and provides a seamless user experience. I tested the website locally before deploying it online, using Git for version control. The website was deployed using [insert deployment method].
+During development, I utilized JavaScript to implement input field validation, ensuring that the form functions correctly and provides a seamless user experience. I tested the website locally before deploying it online, using Git for version control. The website was deployed using vercel.
 
 *Challenges and Solutions*
 
