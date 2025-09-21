@@ -169,7 +169,7 @@ img{
     align-items: center;
     
     gap: 2rem;
-    width: 100%;
+    width: 80%;
     
 }
 .btn-1, .btn-2{
@@ -183,7 +183,7 @@ img{
     font-weight: 500;
     letter-spacing: 1px;
      transition: 0.5s ease;
-
+    width:100%;
 }
 
 .btn-1:hover{
