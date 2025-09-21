@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koawhyte - Front-End Developer Portfolio</title>
+    <meta name="description" content="Professional front-end developer specializing in HTML, CSS, Javascript and modern web technologies. View my portfolio of creative web projects." />
+    <meta name="author" content="Koawhyte" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+   
+</head>
+    
+    <title>My portfolio </title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <h3><span>Koa</span>whyte</h3>
+        </div>
+        
+        
+
+        <nav class="sidebar">
+             <a href="#" onclick="hideSideBar()"><img src="/cancel.svg.svg" class="cancel"></a>
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#">Experience</a>
+            <a href="service.html">Services</a>
+            <a href="#">Project</a>
+             <a href="#contact"><button class="btn">Contact Me</button></a>
+        </nav>
+
+          <nav class="navbar">
+            <a href="index.html" class="active hideOnMobile">Home</a>
+            <a href="#about" class="hideOnMobile">About Me</a>
+            <a href="#" class="hideOnMobile">Experience</a>
+            <a href="service.html" class="hideOnMobile">Services</a>
+            <a href="#" class="hideOnMobile">Project</a>
+            
+        </nav>
+
+        <a href="#contact"><button class="btn">Contact Me</button></a>
+
+        <div>
+            <img src="/menu.png" class="bars" onclick="showSideBar();">
+        </div>
+        </header>
+
+
+    <main>
+
+       <section class="contact" id="contact">
+                <h2>Contact <span>Me</span></h2>
+                <p>Get in Touch with me to discuss your project or learn more about my services</p>
+
+                <form class="form">
+                    <div class="input-field">
+                        <input type="text" name="fullName" placeholder="FullName" class="input-box">
+                        
+                        <input type="email" name="email" placeholder="example@gmail.com" class="input-box">
+
+                        <input type="number" name="number" placeholder="Phone number" class="input-box" id="phone">
+
+                        <input type="text" name="subject" placeholder="Subject" class="input-box" id="subject">
+
+                        <textarea name="msg" id="msg" cols="40" rows="10" placeholder="your message" id="message"></textarea>
+                        </div>
+
+                    <input type="submit" value="Send message" class="btn-1 space" >
+                
+                </form>
+                
+            </section>
+    </main>
+    <footer class="footer">
+
+                <div class="social-handles">
+                    <a href="https://www.instagram.com/Koa_Whyte" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/Charity Nwanze" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://wa.me/08106978121" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+
+                <div class="list">
+                    <a href="#">FAQ</a>
+                    <a href=".about">About </a>
+                    <a href="service.html">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">PrivacyPolicy</a>
+                </div>
+
+                <p class="copyright">@ 2025 Koawhyte| All Rights Reserved</p>
+            
+            </footer>
+
+        <script src="/script.js"></script>
+     </body>
+
+</html>

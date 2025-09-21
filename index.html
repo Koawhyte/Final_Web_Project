@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koawhyte - Front-End Developer Portfolio</title>
+    <meta name="description" content="Professional front-end developer specializing in HTML, CSS, Javascript and modern web technologies. View my portfolio of creative web projects." />
+    <meta name="author" content="Koawhyte" />
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+   
+</head>
+    
+    <title>My portfolio </title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <h3><span>Koa</span>whyte</h3>
+        </div>
+        
+        <nav class="sidebar">
+             <a href="#" onclick="hideSideBar()"><img src="/cancel.svg.svg" class="cancel"></a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#">Experience</a>
+            <a href="#">Project</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html"><button class="Sbtn" style="background-color: black; color: white;">Contact Me</button></a>
+        </nav>
+
+          <nav class="navbar">
+            <a href="#home" class="active hideOnMobile">Home</a>
+            <a href="#about" class="hideOnMobile">About Me</a>
+            <a href="#" class="hideOnMobile">Experience</a>
+            <a href="service.html" class="hideOnMobile">Services</a>
+            <a href="#" class="hideOnMobile">Project</a>
+            
+        </nav>
+
+        <a href="contact.html"><button class="btn">Contact Me</button></a>
+
+        <div>
+            <img src="/menu.png" class="bars" onclick="showSideBar();">
+        </div>
+        </header>
+
+
+    <main>
+            <section class="home" id="home">
+
+            <div class="home-content">
+                <h3>Hello</h3>
+                <h2>I am <span>Koawhyte </span> a Frontend Developer</h2>
+                <p>As a passionate frontend developer i specialize in creating visually appealing and user friendly web applications. With a strong foundation in HTML, CSS and JavaScript, i am dedicated to delivering high-quality solutions that meet the needs of my clients.</p>
+            <div class="home-button">
+                <button class="btn-1"> Hire Me</button>
+                <button class="btn-2"> Experience</button>
+            </div>
+            </div>
+
+            <div class="home-image">
+               <img src="/IMG_20220209_081648_237.jpg" alt="a picture of a beautiful girl">
+             </div>
+
+
+
+        </section>  
+
+        <section class="about" id="about">
+
+            <div class="about-image">
+                <img src="/IMG_20220209_081648_237.jpg" alt="a picture of a beatiful girl">
+
+            </div>
+            <div class="about-content">
+                <h3>About <span>Me</span></h3>
+                <h2>Frontend <span>Developer</span></h2>
+                <p> With a keen eye for design and a passion for coding, i have deveeloped a strong expertise in frontend development. My goal is to create web applications that are not just visually appealing but also provide a seemless user experience.</p>
+                <button class="btn-2">Experience</button>
+            </div>
+        </section>
+
+        <section class="skill">
+            <h3>My <span>Skills</span></h3>
+            <div class="container">
+
+                <div class="card">
+                    <h2>Web Development</h2>
+                    <p> Proficient in building responsive and scalable web applications using HTML, CSS, Javascript and modern frameworks like React and Node.js. Skilled in creating dynamic and interractive webpages that provide seemless user experience.</p>
+                </div>
+
+                <div class="card">
+                    <h2>UI/UX Design</h2>
+                    <p>Passionate about creating user centeric designs that are both aesthetically pleasing and functional. Experienced in using Figma as a design tool, skilled in conducting user research, realizing users painpoint and frustrations and producing useable and useful designs.</p>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="social-handles">
+                <a href="https://www.instagram.com/Koa_Whyte" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/Charity Nwanze" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/08106978121" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+
+            <div class="list">
+                <a href="#">FAQ</a>
+                <a href=".about">About </a>
+                <a href="service.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">PrivacyPolicy</a>
+            </div>
+
+            <p class="copyright">@ 2025 Koawhyte| All Rights Reserved</p>
+        
+        </footer>
+
+        <script src="/script.js"></script>
+</body>
+</html>
