@@ -162,8 +162,9 @@ img{
 
 .home-content p, .about-content p {
     margin-block: 1.3rem;
-    font-size: .97rem;
-    line-height:1.4;
+    font-size: .95rem;
+    align-self:end;
+    
 }
 
 .home-button{
