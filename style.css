@@ -156,8 +156,8 @@ img{
 
 .home-content h2, .about-content h2{
     line-height: 1.4;
-    font-size: 1rem;
-    flex-wrap:nowrap;
+    font-size: .9rem;
+    
 }
 
 .home-content p, .about-content p {
@@ -270,7 +270,7 @@ img{
 .skill{
     background-color: rgb(241, 241, 241);
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .skill h3{
