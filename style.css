@@ -156,14 +156,14 @@ img{
 
 .home-content h2, .about-content h2{
     line-height: 1.4;
-    font-size: .95rem;
+    font-size: .97rem;
     
 }
 
 .home-content p, .about-content p {
     margin-block: 1.3rem;
-    font-size: .95rem;
-    line-height:1.2;
+    font-size: .97rem;
+    line-height:1.4;
 }
 
 .home-button{
