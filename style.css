@@ -163,7 +163,7 @@ img{
 .home-content p, .about-content p {
     margin-block: 1.3rem;
     font-size: .95rem;
-    align-self:end;
+    text-align:justify;
     
 }
 
